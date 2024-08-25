@@ -50,7 +50,7 @@
 
 .hero h2 {
     position: absolute;
-    bottom: 800px;
+    bottom: 600px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #fff;
