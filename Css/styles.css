@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e1ad01;
+    height: 80px;
+    border: solid 2px blue;
+}
+
+.header .left {
+    border: solid 2px rgb(39, 229, 87);
+    margin-top: 18px;
+    margin-left: 75px;
+}
+
+
+
+.header .right {
+    border: solid 2px red;
+    margin-top: 32px;
+    margin-right: 75px;
+}
+
+.header .right a {
+    color: black;
+    font-size: 18px;
+    margin: 0 20px;
+    text-decoration: none;
+}
