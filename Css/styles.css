@@ -12,12 +12,12 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #e1ad01;
     height: 100px;
 }
 
 .header .left {
-    margin-top: 15px;
     margin-left: 75px;
     font-size: 24px;
 }
@@ -118,7 +118,7 @@
 }
 
 .healthy-recipes {
-    height: 100vh;
+    height: 90vh;
     border: solid 2px white;
     background-color: #dadfea;
 }
@@ -144,7 +144,7 @@
     display: flex;
     justify-content: center;
     margin-top: 90px;
-    gap: 30px;
+    gap: 65px;
 }
 
 .image1 img,
@@ -153,7 +153,6 @@
 .image4 img {
     height: 350px;
     width: 350px;
-    
     object-fit: cover;
     border: none;
 }
