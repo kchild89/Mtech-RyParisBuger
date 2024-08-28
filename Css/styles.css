@@ -6,7 +6,7 @@
 }
 
 .container {
-    height: 2000px;
+    height: 3800px;
 }
 
 .header {
@@ -165,4 +165,84 @@
     text-align: center;
     padding: 15px;
     background-color: #fff;
+}
+/* Where to Eat */
+.where-to-eat {
+    height: 100vh;
+}
+
+.where-to-eat .page4-text-section {
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.where-to-eat .page4-text-section h3 {
+    font-size: 45px;
+}
+
+.page4-text-section p {
+    font-size: 35px;
+    margin-top: 25px;
+    line-height: 50px;
+    width: 1550px;
+}
+
+.where-to-eat .page4-images-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 55px;
+    margin-bottom: 90px;
+}
+
+.page4-left-image img, 
+.page4-center-image img,
+.page4-right-image img
+ {
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+    padding: 10px;
+    background-color: #dadfea;
+    
+}
+
+.page4-left-image p,
+.page4-center-image p,
+.page4-right-image p {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e1ad01;
+    height: 100px;
+    margin-top: 200px;
+}
+
+.footer .left-footer {
+    margin-left: 75px;
+    font-size: 24px;
+}
+
+.footer .left-footer p {
+    font-size: 20px;
+}
+
+.footer .right-footer {
+    margin-right: 75px;
+}
+
+.footer .right-footer a {
+    color: black;
+    font-size: 16px;
+    margin: 0 10px;
+    text-decoration: none;
 }
