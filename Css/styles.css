@@ -59,51 +59,46 @@
 
 .hero h2 {
     position: absolute;
-    bottom: 125px;
-    left: 580px;
+    bottom: 100px;
+    left: 500px;
     z-index: 1;
     background-color: #fff;
     color: black;
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 50px;
     padding: 12px 20px;
 }
 
 .everyday-categories {
-    height: 44%;
-    border: solid 3px blue;
+    height: 90vh;
 }
 
 .everyday-categories .text-section {
-    width: 88%;
     margin-left: 150px;
-    margin-top: 65px;
-
-
+    margin-top: 60px;
 }
 
 .text-section h3 {
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .text-section p {
-    font-size: 44px;
+    font-size: 35px;
     margin-top: 25px;
-    line-height: 55px;
+    line-height: 50px;
+    width: 1550px;
 }
 
 .everyday-categories .image-section {
     display: flex;
     justify-content: center;
-    gap: 80px;
-    margin-top: 75px;
-    height: 456px;
+    margin-top: 90px;
 }
 
 .left-image img,
 .right-image img {
     height: 400px;
-    width: 550px;
+    width: 500px;
     object-fit: cover;
 }
 
@@ -123,43 +118,44 @@
 }
 
 .healthy-recipes {
-    height: 44%;
-    background-color: #d3d3d3;
-    border: solid 3px rgb(21, 170, 8);
+    height: 100vh;
+    border: solid 2px white;
+    background-color: #dadfea;
 }
 
 .healthy-recipes .page3-text-section {
     width: 88%;
     margin-left: 150px;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .page3-text-section h3 {
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .page3-text-section p {
-    font-size: 44px;
+    font-size: 35px;
     margin-top: 25px;
-    line-height: 55px;
+    line-height: 50px;
+    width: 1550px;
 }
 
 .healthy-recipes .page3-image-section {
     display: flex;
     justify-content: center;
-    gap: 40px;
-    margin-top: 80px;
-    height: 456px;
+    margin-top: 90px;
+    gap: 30px;
 }
 
 .image1 img,
 .image2 img,
 .image3 img,
 .image4 img {
-    height: 300px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
+    
     object-fit: cover;
-    margin-bottom: 0;
+    border: none;
 }
 
 .image1 p,
@@ -170,5 +166,4 @@
     text-align: center;
     padding: 15px;
     background-color: #fff;
-    margin-top: 0;
 }
