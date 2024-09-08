@@ -6,14 +6,14 @@
 }
 
 .container {
-    height: 2500px;
+    height: 2600px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #e1ad01;
+    background-color: #e6a84e;
     height: 100px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .header .right {
-    margin-top: 40px;
+    margin-top: 25px;
     margin-right: 75px;
 }
 
@@ -41,7 +41,6 @@
 .hero {
     display: flex;
     position: relative;
-    margin-top: 4px;
     overflow: hidden;
     width: 100vw;
     height: 39vw;
@@ -60,34 +59,35 @@
 .hero h2 {
     position: absolute;
     bottom: 100px;
-    left: 500px;
+    left: 450px;
     z-index: 1;
     background-color: #fff;
     color: black;
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 38px;
     padding: 12px 20px;
 }
 
 .time {
-    background-color: #dadfea;
+    background-color: #dbdfe9;
     font-size: 40px;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-left: 150px;
 }
 
 .hero-bottom {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-left: 150px;
-    height: 250px;
+    height: 150px;
     font-size: 25px;
-    background-color: #dadfea;
+    background-color: #dbdfe9;
 }
 
 .hero-bottom p {
-    width: 450px;
+    width: 340px;
+    padding-top: 10px;
 }
 
 .bold {
@@ -116,16 +116,17 @@
     display: flex;
     align-items: center;
     margin-top: 20px;
+    gap: 10px;
 }
 
 .review-count img {
-    height: 30px;
+    height: 40px;
 }
 
 .save-print-buttons {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
     margin-top: 20px;
 }
 
@@ -137,7 +138,7 @@
 .save-print-buttons button {
     color: white;
     font-size: 18px;
-    background-color: rgb(182, 13, 13);
+    background-color: #993b2b;
     height: 40px;
     padding: 5px 20px;
     border: none;
@@ -150,37 +151,45 @@
     font-size: 30px;
     font-weight: 600;
     text-align: center;
-    background-color: #dadfea;
+    color: #565656;
+    background-color: #eef0f4;
     margin-left: 150px;
     margin-right: 150px;
-    height: 200px;
-    padding: 20px 100px;
+    height: 240px;
+    padding: 30px 100px;
 }
 
 .instructions {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 100px;
-    gap: 165px;
 }
 
 .ingredients {
     width: 400px;
 }
 
-.directions {
-    width: 600px;
-}
+
 
 .ingredients h3,
 .directions h3 {
     font-size: 24px;
     font-weight: 800;
+    margin-bottom: 10px;
 }
 
 .ingredients h5 {
     font-size: 18px;
     font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.video {
+    margin-top: 30px;
+}
+
+.directions {
+    width: 600px;
 }
 
 .directions h6 {
@@ -191,9 +200,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #e1ad01;
+    background-color: #e6a84e;
     height: 100px;
-    margin-top: 400px;
+    margin-top: 700px;
 }
 
 .footer .left-footer {
