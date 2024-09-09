@@ -6,14 +6,14 @@
 }
 
 .container {
-    height: 3800px;
+    height: 3400px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(230, 168, 78);
+    background-color: #e6a84e;
     height: 100px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .header .right {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-right: 75px;
 }
 
@@ -59,18 +59,19 @@
 
 .hero h2 {
     position: absolute;
-    bottom: 100px;
-    left: 500px;
+    bottom: 80px;
+    left: 380px;
     z-index: 1;
     background-color: #fff;
     color: black;
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 40px;
     padding: 12px 20px;
 }
 
 .everyday-categories {
     height: 90vh;
+    background-color: #fff;
 }
 
 .everyday-categories .text-section {
@@ -83,10 +84,10 @@
 }
 
 .text-section p {
-    font-size: 35px;
+    font-size: 28px;
     margin-top: 25px;
     line-height: 50px;
-    width: 1550px;
+    width: 1250px;
 }
 
 .everyday-categories .image-section {
@@ -97,14 +98,14 @@
 
 .left-image img,
 .right-image img {
-    height: 400px;
-    width: 500px;
+    height: 300px;
+    width: 400px;
     object-fit: cover;
 }
 
 .center-image img {
-    height: 400px;
-    width: 600px;
+    height: 300px;
+    width: 400px;
     object-fit: contain;
     object-position: center;
 }
@@ -119,8 +120,8 @@
 
 .healthy-recipes {
     height: 90vh;
-    border: solid 2px white;
     background-color: #dadfea;
+    padding-top: 20px;
 }
 
 .healthy-recipes .page3-text-section {
@@ -134,25 +135,26 @@
 }
 
 .page3-text-section p {
-    font-size: 35px;
+    font-size: 28px;
     margin-top: 25px;
     line-height: 50px;
-    width: 1550px;
+    width: 1250px;
 }
 
 .healthy-recipes .page3-image-section {
     display: flex;
     justify-content: center;
     margin-top: 90px;
-    gap: 65px;
+    margin-left: 30px;
+    gap: 35px;
 }
 
 .image1 img,
 .image2 img,
 .image3 img,
 .image4 img {
-    height: 350px;
-    width: 350px;
+    height: 280px;
+    width: 280px;
     object-fit: cover;
     border: none;
 }
@@ -166,7 +168,7 @@
     padding: 15px;
     background-color: #fff;
 }
-/* Where to Eat */
+
 .where-to-eat {
     height: 100vh;
 }
@@ -181,17 +183,17 @@
 }
 
 .page4-text-section p {
-    font-size: 35px;
+    font-size: 28px;
     margin-top: 25px;
     line-height: 50px;
-    width: 1550px;
+    width: 1225px;
 }
 
 .where-to-eat .page4-images-section {
     display: flex;
     justify-content: center;
     margin-top: 90px;
-    gap: 55px;
+    gap: 30px;
     margin-bottom: 90px;
 }
 
@@ -199,8 +201,8 @@
 .page4-center-image img,
 .page4-right-image img
  {
-    height: 400px;
-    width: 500px;
+    height: 280px;
+    width: 380px;
     object-fit: cover;
     padding: 10px;
     background-color: #dadfea;
@@ -222,7 +224,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #e1ad01;
+    background-color: #e6a84e;
     height: 100px;
     margin-top: 200px;
 }
